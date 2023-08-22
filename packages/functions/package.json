@@ -1,0 +1,19 @@
+{
+  "name": "@layer-chrome-aws-lambda/functions",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "@types/node": "^20.5.1",
+    "sst": "^2.24.8",
+    "vitest": "^0.34.2"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^116.0.0",
+    "puppeteer-core": "^21.1.0"
+  }
+}
